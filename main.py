@@ -1,6 +1,3 @@
-import requests
-from bs4 import BeautifulSoup
-
 import os
 
 BOT_TOKEN = os.environ["8919943087:AAF1fOdVGvchW5mgAwDDNGQawEPTrMn71uY"]
