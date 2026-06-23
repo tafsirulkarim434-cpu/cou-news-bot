@@ -1,8 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 
-BOT_TOKEN = "YOUR_BOT_TOKEN"
-CHAT_ID = "YOUR_CHAT_ID"
+import os
+
+BOT_TOKEN = os.environ["8919943087:AAF1fOdVGvchW5mgAwDDNGQawEPTrMn71uY"]
+CHAT_ID = os.environ["7106520212"]
 
 KEYWORDS = ["কুমিল্লা বিশ্ববিদ্যালয়", "কুবি", "Comilla University"]
 
