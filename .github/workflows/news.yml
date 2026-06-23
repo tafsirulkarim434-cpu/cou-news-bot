@@ -20,5 +20,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Run script
+      -  - name: Run script
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }} # এই লাইনটি যোগ করতে হবে
         run: python main.py
