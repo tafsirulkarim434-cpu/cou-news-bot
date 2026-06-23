@@ -1,7 +1,7 @@
 import os
 
-BOT_TOKEN = os.environ["8919943087:AAF1fOdVGvchW5mgAwDDNGQawEPTrMn71uY"]
-CHAT_ID = os.environ["7106520212"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHAT_ID = os.environ["CHAT_ID"]
 
 KEYWORDS = ["কুমিল্লা বিশ্ববিদ্যালয়", "কুবি", "Comilla University"]
 
